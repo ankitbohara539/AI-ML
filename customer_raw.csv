@@ -1,0 +1,132 @@
+Customer_ID,Customer_Name,Age,Gender,City,Registration_Date,Annual_Income,Purchase_Amount,Payment_Method,Phone,Email,Customer_Status,Customer_Segment
+C0056,Kiran Adhikari,30,Other,Kathmandu,4/27/2025,"88,661",5544.11,Mobile Banking,9890585882,kiran.adhikari16@example.com,Pending,Regular
+C0041,Nabin Tamang,46,Female,Bhaktapur,10/15/2025,,25803.11,Card,9898429450,nabin.tamang11@example.com,Inactive,New
+C0020,Kiran Tamang,33,Male, Pokhara ,1/25/2023,,22706.37,Digital Wallet,9834627347,kiran.tamang36@example.com,Inactive,Regular
+C0032,Sita Tamang,53,Other,Pokhara,5/30/2024,"58,409",2570.53,Mobile Banking,9815354599,sita.tamang46@example.com,Active,New
+C0116,Hari KC,42,Male,BHAKTAPUR,2023-13-05,"114,363",8291.76,Mobile Banking,9841-234567,hari.kc73@example.com,Pending,Regular
+C0057,Sabina KC,-5,Female,Lalitpur,5/22/2022,,,Cash,9866379329,sabina.kc63@example.com,Active,Premium
+C0070,Bikash Rai,23,Other,Pokhara,5/7/2023,"70,564",27823.62,Card,9810359129,bikash.rai53@example.com,Inactive,New
+C0106,Hari Karki,41,Female,Chitwan,4/30/2025,"53,587",22874.27,Card,9892558242,hari.karki6@example.com,Pending,New
+C0082,Sneha Rai,36,,Butwal,9/4/2023,"178,862",29206.21,Digital Wallet,9829944139,sneha.rai58@example.com,Pending,Premium
+C0027,Hari Sharma,57,Female,Chitwan,7/24/2022,"44,204",27112.9,Mobile Banking,9827778019,hari.sharma45@example.com,Active,Regular
+C0096,Prakash Karki,65,Female,Biratnagar,11/25/2023,"55,191",23682.4,Cash,9828892086,prakash.karki97@example.com,Active,New
+C0028,Sabina Rai,46,Male,Biratnagar,1/17/2025,"104,303",30778.05,Cash,9899639081,sabina.rai71@example.com,Inactive,New
+C0065,Nabin Rai,30,Woman,lalitpur,4/11/2023,"119,602",9382.36,Cash,9881690398,invalid.email.com,Inactive,Regular
+C0005,Nabin Tamang,30,Woman,Butwal,5/23/2022,"37,012",33232.53,Mobile Banking,9820709497,nabin.tamang30@example.com,Active,Premium
+C0098,Prakash Poudel,58,Female,Lalitpur,8/10/2022,"86,295",23838.1,Mobile Banking,9841-234567,prakash.poudel29@example.com,Pending,Regular
+C0101,Nabin Adhikari,20,Female,Butwal,1/29/2024,"81,955",22447.46,Card,9858678896,nabin.adhikari13@example.com,Pending,Premium
+C0037,Prakash Sharma,56,Woman,Bhaktapur,12/9/2023,"107,228",2500000,CARD,-9812344701,prakash.sharma74@example.com,Active,Premium
+C0081,Manish Karki,47,Male,,10/24/2022,"125,554",,Card,9819369750,manish.karki36@example.com,Inactive,Premium
+C0094,Bikash Poudel,61,Female,Biratnagar,9/12/2025,"60,855",31598.28,Cash,9851464269,bikash.poudel57@example.com,Active,New
+C0085,Asha Tamang,46,Male,Kathmandu,12/13/2024,"144,780",1259.71,Card,9865026398,asha.tamang84@example.com,inactive,Regular
+C0019,Gita Thapa,45,Other,Lalitpur,5/17/2024,"132,767",23617.72,Cash,9897705310,gita.thapa83@example.com,Active,Regular
+C0011,Kiran Poudel,51,Female,Lalitpur,2/7/2025,"28,009",34174.03,Cash,98 41234567,kiran.poudel97@example.com,Inactive,New
+C0123,Nisha Adhikari,43,Other,Chitwan,6/11/2022,"128,747",43590.96,Mobile Banking,9839738898,nisha.adhikari43@example.com,Active,Regular
+C0012,Suman Thapa,45,Female,Pokhara,18/07/2024,"25,850",47713.89,Mobile Banking,9877187530,suman.thapa98@example.com,Active,New
+C0013,Gita Rai,50,Other,Chitwan,2/12/2023,"65,065",19008.74,Card,9882394227,gita.rai68@example.com,Active,New
+C0046,Prakash Shrestha,35,m,Biratnagar,12/3/2024,"152,034",31524.05,Mobile Banking,9869038700,prakash.shrestha10@example.com,Pending,Premium
+C0071,Nabin Karki,20,Female,Pokhara,8/14/2023,"99,112",750000,Digital Wallet,9819553585,nabin.karki88@example.com,Active,Premium
+C0079,Riya Karki,49,Other,Kathmandu,3/1/2022,"87,730",35634.25,Mobile banking,9883932360,riya.karki2@example.com,Pending,Premium
+C0048,Roshan Adhikari,52,M,Bhaktapur,5/1/2024,"41,322",10738.3,CASH,9862274692,sita@,Pending,New
+C0001,Gita Sharma,35,Other,Pokhara,4/3/2023,"61,579",36955.33,Cash,9889254563,gita.sharma55@example.com,Active,Regular
+C0013,Gita Rai,50,Other,Chitwan,2/12/2023,"65,065",19008.74,Card,9882394227,gita.rai68@example.com,Active,New
+C0043,  Nabin Thapa ,44,Female,Butwal,3/24/2025,"75,970",36058.12,Digital Wallet,9876354180,nabin.thapa52@example.com,Active,Regular
+C0052,Puja Gurung,34,Male,Bhaktapur,11/2/2023,"80,485",23007.62,Mobile Banking,9860885459,puja.gurung36@example.com,Inactive,Premium
+C0025,Kiran Thapa,33,Other,Chitwan,5/2/2025,"35,418",31159.38,Digital Wallet,9898231132,kiran.thapa75@example.com,Pending,New
+C0068,Sita Gurung,54,Male,Lalitpur,6/24/2022,"90,061",6363.35,Digital Wallet,9891378577,sita.gurung77@example.com,Pending,Regular
+C0114,Nisha Adhikari,57,Other,Chitwan,10/14/2025,"170,945",1799.56,Mobile Banking,9813886030,nisha.adhikari24@example.com,Inactive,New
+C0090,nisha karki,27,Other,Pokhara,8/2/2024,"91,578",23248.74,Cash,9872445234,nisha.karki37@example.com,INACTIVE,New
+C0016,Bikash Rai,60,Female,Butwal,2/4/2024,"139,845",45030.9,Digital Wallet,9826240908,bikash.rai32@example.com,Active,Regular
+C0078,Puja Adhikari,30,Male,Chitwan,1/11/2024,850000,31457.73,Cash,9837321124,puja.adhikari35@example.com,Pending,Regular
+C0023,Dipesh Karki,30,Male,Lalitpur,3/22/2023,"40,331",29169.42,Cash,9852091325,dipesh.karki8@example.com,Active,New
+C0045,Sneha KC,38,Other,Biratnagar,6/25/2024,"157,324",21623.67,Digital Wallet,9831361812,sneha.kc96@example.com,INACTIVE,Premium
+C0066,Sita KC,62,Female,Pokhara,7/30/2025,"153,680",5578.09,Cash,98 41234567,sita.kc37@example.com,Inactive,Premium
+C0097,Kiran KC,23,Female,Biratnagar,3/19/2024,"28,648",13590.7,Cash,9871040347,kiran.kc48@example.com,Pending,New
+C0031,Prakash Gurung,46,Other,Chitwan,12/16/2025,"Rs. 75,000",28264.89,Cash,9820099059,ram@gmail,Active,New
+C0063,Manish KC,40,Other,Bhaktapur,2/1/2025,"111,714",17914.62,Digital Wallet,9846361787,manish.kc40@example.com,Inactive,Regular
+C0041,Nabin Tamang,46,Female,Bhaktapur,10/15/2025,,25803.11,Card,9898429450,nabin.tamang11@example.com,Inactive,New
+C0010,Aarav KC,23,Woman,Biratnagar,4/7/2022,"53,743",8065.65,Card,9866661351,aarav.kc77@example.com,Active,Premium
+C0034,Anisha Tamang,60,Female,Biratnagar,5/24/2023,"94,941",8380.29,Cash,9861343880,anisha.tamang5@example.com,Inactive,Regular
+C0067,Puja Tamang,21,Male,Lalitpur,9/5/2024,"54,907",41194.72,cash,9876001106,puja.tamang10@example.com,Pending,New
+C0026,Suman Rai,60,Male,Butwal,10/6/2023,"87,570",13647.92,Card,9896637649,suman.rai39@example.com,Inactive,Premium
+C0119,Nisha Adhikari,,Other,Kathmandu,2/23/2023,"104,015",47293.54,Card,9844295247,nisha.adhikari38@example.com,Inactive,Regular
+C0029,Gita Gurung,25,Female,Kathmandu,2/7/2025,"65,749",13981.24,Card,9856020613,gita.gurung27@example.com,Pending,New
+C0099,Puja Rai,44,Other,Kathmandu,10/14/2022,"36,887","Rs. 12,500",Mobile Banking,9876118957,puja.rai15@example.com,Active,Regular
+C0086, manish rai ,57,Female,Butwal,25/03/2024,"46,054",42662.38,Digital Wallet,9852501540,manish.rai81@example.com,Pending,Premium
+C0054,Bikash Sharma,27,Other,Pokhara,9/16/2022,"149,141",33638.21,Card,9872415804,bikash.sharma90@example.com,Inactive,Premium
+C0006,Prakash Karki,150,Other,Pokhara,1/29/2024,"118,132",10870.6,Mobile Banking,9896977837,prakash.karki10@example.com,Pending,New
+C0069,Sneha Adhikari,46,Female,Lalitpur,4/20/2025,unknown,15616.32,Cash,9891823275,sneha.adhikari95@example.com,Active,Regular
+C0074,Hari Poudel,45,Male,Butwal,10/23/2023,"90,632",1780.31,Card,9887201917,hari.poudel76@example.com,Active,New
+C0040,Kiran Gurung,54,Female ,Lalitpur,11/4/2024,"1,200,000",41769.4,Mobile Banking,9848508907,kiran.gurung27@example.com,pending,New
+C0050,Nabin Shrestha,32,Female,Lalitpur,6/11/2024,"152,308",1936.73,CARD,9899774697,nabin.shrestha87@example.com,Inactive,New
+C0036,Prakash Tamang,50,Other,Bhaktapur,10/23/2025,"165,565",16891.92,Cash,,prakash.tamang34@example.com,Active,New
+C0017,  Suman Sharma ,53,Other,Pokhara,4/20/2025,"82,728",855.95,Cash,9840728046,suman.sharma9@example.com,Active,Premium
+C0120,Ram Karki,45,Other,Pokhara,9/22/2022,"124,669",750000,Card,9877144075,ram.karki72@example.com,Pending,Premium
+C0035,Bikash Karki,37,Female,Biratnagar,4/12/2023,"83,438",1671.39,Card,98 41234567,bikash.karki43@example.com,Inactive,Regular
+C0086,manish rai,57,Female,Butwal,25/03/2024,"46,054",42662.38,Digital Wallet,9852501540,manish.rai81@example.com,Pending,Premium
+C0008,Sita Tamang,35,Female ,KATHMANDU,3/9/2023,"173,682",43880.2,Mobile Banking,9838538251,,Inactive,Premium
+C0044,Ram Thapa,32,Female, Pokhara ,26-Nov-25,"160,779",23495.22,CASH,9826288475,ram.thapa59@example.com,Active,Premium
+C0077,Kiran KC,47,Male,Kathmandu,10/7/2023,"91,164",16502.05,Digital Wallet,9879067939,kiran.kc1@example.com,Pending,New
+C0105,  Ram Tamang ,55,Male,Lalitpur,2/2/2022,"70,677",13635.69,Card,9866500369,ram.tamang68@example.com,Active,New
+C0111,Hari Thapa,23,Male ,,7/17/2022,"122,687",40682.58,Cash,9888714010,hari.thapa72@example.com,Pending,Premium
+C0009,Puja Gurung,26,Female,Pokhara,2/23/2025,,13505.71,Digital Wallet,9888320463,puja.gurung52@example.com,Inactive,Regular
+C0014,Suman Karki,25,Male,lalitpur,9/22/2023,"87,770",250000,Cash,9821496211,suman.karki94@example.com,Inactive,Regular
+C0095,  Sabina Gurung ,36,Male,Lalitpur,4/30/2024,"71,042",10439.34,Mobile Banking,9881249799,sabina.gurung65@example.com,Inactive,Regular
+C0004,Sabina Tamang,34,Other,Biratnagar,3/30/2022,"145,435",27043.29,Digital Wallet,9820576383,sabina.tamang71@example.com,Inactive,New
+C0018,Hari KC,35,Male,Butwal,9/21/2024,1500000,27192.08,Digital Wallet,9842614537,hari.kc61@example.com,Inactive,Regular
+C0039,Gita Rai,37,Other,Butwal,4/16/2024,"110,506",20418.82,Mobile Banking,,gita.rai17@example.com,Active,Premium
+C0073,Nabin Poudel,,Female,Kathmandu,8/17/2024,"104,715",35136.82,Mobile Banking,9877172238,nabin.poudel70@example.com,Inactive,Premium
+C0102,dipesh tamang,43,Male,Lalitpur,1/24/2023,"57,023",47476.03,Digital Wallet,,dipesh.tamang85@example.com,Active,New
+C0007,Anisha KC,33,Other,Pokhara,8/4/2024,"124,471",13862.42,Card,9853524491,nabin example.com,Active,Regular
+C0084,Sita Tamang,48,Other,Butwal,2/20/2024,"126,208",49426.49,Card,9876481885,sita.tamang5@example.com, Active ,New
+C0113,Bikash Gurung,,Other,Pokhara,8/10/2022,"116,780",42345.98,Mobile Banking,9825419645,bikash.gurung98@example.com,Inactive,New
+C0115,Riya Tamang,18,Female,Pokhara,10/21/2022,"173,457",33038.56,Cash,9829042093,riya.tamang95@example.com,Pending,Regular
+C0055,Anisha Poudel,65,Other,Butwal,8/23/2022,"67,930",48253.68,Cash,9887669750,anisha.poudel4@example.com,Inactive,New
+C0051,Anisha Karki,57,Male,Chitwan,2/25/2022,"128,290",29798.69,Cash,9821267237,ram@gmail,pending,Regular
+C0121,Hari Adhikari,20,Other,Bhaktapur,2/8/2022,"145,521",46097.54,Mobile Banking,9887277086,hari.adhikari55@example.com,Pending,Premium
+C0047,Nisha Rai,-5,Female,Chitwan,6/15/2022,"61,273",7966.12,Mobile banking,9830509175,nisha.rai91@example.com,Active,Regular
+C0109,Puja KC,45,Other,Kathmandu,12/8/2025,"54,992",42713.24,Card,9867723010,puja.kc58@example.com,Active,Premium
+C0062,Manish Karki,19,Female,Kathmandu,8/26/2023,"83,090",20517.86,Card,9851098277,manish.karki85@example.com,Pending,Premium
+C0108,Hari Thapa,56,Female,POKHARA,5/15/2022,"58,080",14113.29,Mobile Banking,9861124122,hari.thapa77@example.com,Pending,Premium
+C0080,Hari Shrestha,47,,Kathmandu,8/19/2025,"65,362",25169.59,Mobile Banking,9878299645,hari.shrestha91@example.com,Inactive,Premium
+C0124,Sneha Thapa,50,Other,Pokhara,12/17/2023,-45000,36505.27,Card,9841711468,sneha.thapa14@example.com,active,Premium
+C0092,Gita Shrestha,54,Female,Lalitpur,3/23/2025,"102,561",49638.26,Mobile Banking,9812944682,gita.shrestha85@example.com,Inactive,Premium
+C0042,Nabin Tamang,33,Male,,9/28/2023,"83,888",40424.86,Card,9813278320,nabin.tamang6@example.com,Active,Premium
+C0059,Roshan Poudel,38,Female,Biratnagar,5/18/2023,"47,718",14306.95,Digital Wallet,9842730796,roshan.poudel97@example.com,Inactive,New
+C0091,Anisha Thapa,40,Female,Chitwan,9/5/2023,"136,230",34670.52,Digital Wallet,9850550084,anisha.thapa26@example.com,Inactive,Premium
+C0049,Ram Poudel,48,Female,Kathmandu,12/22/2023,"103,279",unknown,Digital Wallet,9882238741,ram.poudel96@example.com,Pending,New
+C0089,Aarav Shrestha,44,Other,Chitwan,10/28/2025,"72,200",8914.19,Cash,9891804602,aarav.shrestha49@example.com,Pending,New
+C0112,Gita Adhikari,60,Female,Biratnagar,5/16/2024,950000,48435.73,Mobile Banking,9857197152,gita.adhikari14@example.com,Pending,New
+C0058,Sabina Karki,,FEMALE,bhaktapur,12/27/2022,"161,772",48290.95,Mobile Banking,98412345,sabina.karki69@example.com,Inactive,Premium
+C0076,Hari Karki,44,Female,Lalitpur,10/20/2023,"52,420",42957.79,Mobile Banking,9865250068,,Inactive,Premium
+C0033,Nisha Thapa,53,Female,Biratnagar,4/12/2024,"65,515",46325.31,Card,9831810617,nisha.thapa23@example.com,Inactive,Regular
+C0125,Bikash Gurung,27,Other,,9/4/2025,"44,753",9268.73,Digital Wallet,9872270726,bikash.gurung97@example.com,Pending,New
+C0060,Nabin Adhikari,19,f,Bhaktapur,10/28/2023,"72,668","Rs. 12,500",Mobile Banking,9844675473,nabin.adhikari44@example.com,Inactive,New
+C0064,Gita Shrestha,25,Female,Butwal,1/2/2025,"73,535",9981.28,Digital Wallet,9847111151,gita.shrestha93@example.com,Pending,New
+C0110,Suman Karki,44,F,Butwal,7/14/2022,"106,932",21624.82,Mobile Banking,9860237832,suman.karki20@example.com,Pending,Premium
+C0038,Sita Adhikari,51,Male,Biratnagar,1/7/2025,"76,651",18528.96,Cash,9899152472,sita.adhikari43@example.com,Pending,Premium
+C0030,Prakash KC,34,Female,Biratnagar,4/15/2022,-45000,31897.08,Mobile Banking,9815917225,prakash.kc1@example.com,Inactive,Regular
+C0108,Hari Thapa,56,Female,POKHARA,5/15/2022,"58,080",14113.29,Mobile Banking,9861124122,hari.thapa77@example.com,Pending,Premium
+C0118,Prakash Shrestha,25,Other,Lalitpur,5/30/2024,"54,069",14520.7,mobile banking,9880723898,prakash.shrestha86@example.com,ACTIVE,Regular
+C0002,Hari Shrestha,50,Male,Chitwan,2/24/2022,"172,127",10342.46,Digital Wallet,9839587039,hari.shrestha58@example.com,Pending,Premium
+C0053,Hari Karki,unknown,Male,Chitwan,4/17/2022,"116,740",11599, Cash ,9897477029,hari.karki6@example.com,Active,Regular
+C0022,Manish Shrestha,21,Female,Pokhara,30/02/2025,"25,565",49272.79,Mobile Banking,9871070189,manish.shrestha37@example.com,Inactive,New
+C0003,Ram Gurung,45,Other,Lalitpur,24/07/2023,"65,758",11158.03,Mobile Banking,9823718431,ram.gurung12@example.com,Inactive,Regular
+C0024,Manish KC,28,Other,Kathmandu,11/6/2024,"46,000",42641.46,Cash,9889864260,manish.kc9@example.com,Pending,Regular
+C0104,Aarav Poudel,35,Male,Biratnagar,31/02/2024,"59,076",27240.67,Card,9824754064,aarav.poudel85@example.com,Active,Regular
+C0100,Dipesh Gurung,47,Female,Lalitpur,10/5/2025,"166,608",unknown,Mobile banking,9865684858,dipesh.gurung84@example.com,Active,Premium
+C0117,Sita Gurung,57,Male,Kathmandu,10/12/2025,"46,386",13969.09,Digital Wallet,9875184410,sita.gurung78@example.com,Inactive,Premium
+C0088,gita karki,,Male,Lalitpur,3/1/2022,"37,056",16556.55,Cash,9849375156,gita.karki46@example.com,Inactive,Premium
+C0120,Ram Karki,45,Other,Pokhara,9/22/2022,"124,669",750000,Card,9877144075,ram.karki72@example.com,Pending,Premium
+C0075,Prakash Poudel,29,Male,Bhaktapur,11/28/2024,"140,927",45845.6,Card,9888561612,prakash.poudel56@example.com,Pending,Premium
+C0087,Dipesh Sharma,22,Other,Pokhara,7/16/2025,"100,334",49872.58, Cash ,9868246664,dipesh.sharma13@example.com,Pending,New
+C0083,Sabina Tamang,52,Other ,Bhaktapur,21-07-2024,"109,352",43545.28,Card,9886745380,sabina.tamang50@example.com,Active,Premium
+C0122,roshan rai,43,Male,Kathmandu,10/28/2023,"70,055",40165.45,Digital Wallet,9858567046,roshan.rai12@example.com,Inactive,Regular
+C0038,Sita Adhikari,51,Male,biratnagar,1/7/2025,"76,651",18528.96,Cash,9899152472,sita.adhikari43@example.com,Pending,Premium
+C0021,Hari Karki,24,Other,Kathmandu,8/28/2025,"166,711",41883.37,CASH,-9812344701,hari.karki22@example.com,Inactive,Premium
+C0061,Prakash KC,51,Male, Pokhara ,6/25/2022,"88,270",,Digital Wallet,9884514489,prakash.kc98@example.com,Active,New
+C0072,Asha Shrestha,25,Female,Chitwan,4/6/2023,"64,056",45466.37,Card,9819584466,asha.shrestha8@example.com,Active,Premium
+C0107,  Sneha Rai ,59,FEMALE,Kathmandu,5/5/2022,"150,562",42441.28,Digital Wallet,9824490391,sneha.rai63@example.com,Pending,Premium
+C0015,Dipesh Gurung,60,Male,Bhaktapur,1/30/2025,"68,287",13620.3,Digital Wallet,9838427073,dipesh.gurung70@example.com,Pending,New
+C0093,Ram Poudel,N/A,Other,Kathmandu,5/26/2025,"155,214",41725.53,Mobile Banking,9840885967,ram.poudel78@example.com,Inactive,Regular
+C0103,Nabin Sharma,39,Male,Pokhara,9/15/2022,950000,10657.68,Card,9888703005,nabin.sharma28@example.com,Active,Premium
