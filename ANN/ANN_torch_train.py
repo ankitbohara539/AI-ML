@@ -182,7 +182,7 @@ if __name__ == "__main__":
     # ---------  Early stopping setting ---------
 
     patience = 10
-    min_delta = 0.001
+    min_delta = 0.02
     counter = 0
     best_validation_loss = float('inf')
     best_epoch = 0
@@ -203,16 +203,21 @@ if __name__ == "__main__":
         total_training_losses = 0.0
 
         for X_batch, y_batch in train_loader:
-                        #--------Forward pass ---------
-                    outputs = model(X_batch)
-                        #--------Compute loss ---------
-                    loss = loss_function(outputs, y_batch)
-                        #--------Backward pass ---------
-                    loss.backward()
-                    #--------Update weights ---------
-                    optimizer.step()
-            
-                    total_training_losses += (loss.item())
+                #--------Forward pass ---------
+            outputs = model(X_batch)
+                #--------Compute loss ---------
+            loss = loss_function(outputs, y_batch)
+
+            # === Clear Previous Gradients ===
+            optimizer.zero_grad()
+
+            # ====== Backpropagation ======
+            loss.backward()
+
+            #--------Update weights ---------
+            optimizer.step()
+    
+            total_training_losses += (loss.item())
 
         # Average training loss for the batches
         training_loss = total_training_losses / len(train_loader)
@@ -277,45 +282,159 @@ if __name__ == "__main__":
 
 
 
-        # 11. RESTORE the best model 
+    # 11. RESTORE the best model 
 
-        model.load_state_dict(best_model_state)
-        print("\n Best model restored from epoch:")
+    model.load_state_dict(best_model_state)
+    print("\n Best model restored from epoch:")
 
+    # 12. save model
 
-        # ========== 12. Save Model =========
+    torch.save(model.state_dict(),"model.pth")
 
-        torch.save(
-             model.state_dict(),
-             "best_model.pth"
-        )
+    print("\nModel saved as: model.pkl")
 
-        print("\n Best model saved to 'best_model.pth'")
+    # =========13. save sclaer
 
+    with open("scaler.pkl","wb") as file:
+        pickle.dump(Scaler,file)
+    print("Scaler saved as: sclaer.pkl")
 
-        #  save scaler
+    # ==14. make predictions
 
+    model.eval()
+    with torch.no_grad():
+        outputs = model(X_test)
+        predictions = torch.argmax(outputs,dim=1)
 
-
-
-
-
-
-        # 14. Make Preduction
-
-        model.eval()
-
-        with torch.no_grad():
-             outputs = model(X_test)
-             predictions = torch.argmax(outputs, dim =1)
-
-
-       # Convert to numpy list
-
-       y_pred = predictions.numpy()
-       y_actual = 
-
+    # conver to numpy
         
+    y_pred = predictions.numpy()
+    y_actual = y_test.numpy()
+
+    print("\nfirst 20 predictions:")
+    print(y_pred[:20])
+    print("\nFirst 20 actual values:")
+    print(y_actual[:20])
+
+
+    # ==prediction probabilites
+
+    with torch.no_grad():
+        outputs = model(X_test)
+        probabilites = torch.softmax(outputs, dim=1)
+
+    print("\n probabilites for first image:")
+    print(probabilites[0].numpy())
+
+    # ====16. evaluation
+
+    accuracy = accuracy_score(y_actual,y_pred)
+    precision = precision_score(y_actual,y_pred,average="weighted")
+
+    recall = recall_score(y_actual,y_pred,average="weighted")
+
+    f1 = f1_score(y_actual,y_pred,average="weighted")
+
+    cm = confusion_matrix(y_actual,y_pred)
+
+    print("\n Model Evaluation Metrics:")
+    print("Accuracy:", accuracy)
+    print("Precision:", precision)
+    print("Recall:", recall)
+    print("F1-Score:", f1)
+
+
+
+
+    # ======= 17. Classification Report
+
+    print("\nClassification Report:")
+
+    print(
+        classification_report(
+            y_actual,
+            y_pred
+        )
+    )
+
+
+    # ======= 18. Confusion Matrix ============
+
+    print("\nConfusion Matrix:")
+
+    print(
+        confusion_matrix(
+            y_actual,
+            y_pred
+        )
+    )
+
+    print("\nConfusion Matrix:")
+    
+
+
+
+
+    # ======= 19. Visualize Confusion Matrix ========
+
+    plt.figure(figsize=(7, 6))
+    plt.imshow(cm)
+
+    plt.title("ANN Confusion Matrix")
+    plt.xlabel("Predicted")
+    plt.ylabel("Actual")
+
+    plt.xticks(range(10), range(10))
+    plt.yticks(range(10), range(10))
+
+    for i in range(10):
+        for j in range(10):
+            plt.text(
+                j,
+                i,
+                cm[i, j],
+                ha="center",
+                va="center",  
+            )
+
+    plt.colorbar()
+    plt.savefig("ann_confusion_matrix.png")
+
+
+
+   # ==================== 20. VISUALIZE TRAINING AND VALIDATION LOSS =====================
+
+    plt.figure(figsize=(8,5))
+    plt.plot(loss_history,label="Training Loss")
+    plt.plot(validation_loss_history,label="Validation Loss")
+
+    plt.axvline(
+        x=best_epoch,
+        linestyle="--",
+        label="Select Model",
+    )
+
+    plt.scatter(
+        best_epoch,
+        best_validation_loss,
+        s=60,
+        zorder=5,
+    )
+
+    plt.title("Training and Validation Loss")
+    plt.xlabel("Epochs")
+    plt.ylabel("Loss")
+    plt.legend()
+
+    plt.grid()
+    plt.savefig("training_validation_loss.png")
+
+    
+
+
+
+
+
 
 
 
@@ -323,10 +442,7 @@ if __name__ == "__main__":
     
 
 
-        
-       
-
-        
 
 
-           
+
+
